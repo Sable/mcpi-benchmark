@@ -1,0 +1,17 @@
+{
+   "type": "benchmark",
+   "name":"Monte Carlo Pi",
+   "short-name":"mcpi",
+   "description":"Calculate pi by the Monte Carlo method",
+   "version":"0.1.0",
+   "input-size":{
+      "small":100000,
+      "medium":1000000,
+      "large": 10000000
+   },
+   "expected-output": {
+      "small": 31384,
+      "medium": 31399,
+      "large": 31415
+   }  
+}
